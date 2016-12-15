@@ -1,0 +1,121 @@
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+  margin: 0;
+  padding: 0;
+}
+
+												/*Public*/
+.border_c{
+	border: 1px solid;
+}
+
+.center{
+	padding:5px;
+	text-align:center;
+/*	line-height:50%;
+	vertical-align: center; */
+}
+.box_b {
+	/*box-shadow: 0 3px 0 #ccc;*/
+	-webkit-box-shadow: 0px 3px 3px #ccc;  
+	-moz-box-shadow: 0px 3px 3px #ccc;  
+	box-shadow: 0px 3px 3px #ccc;  
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+
+												/*login.html*/
+
+*{margin:0; padding:0;}
+.login_bg {
+	background-image: url(../img/3.jpg);
+	background-repeat: round;
+	min-height: 600px;
+	border: 1px solid #888; /*有错，不加border出现未知错误*/
+}
+.login_style {
+	background-color: #fff;
+	width: 400px;
+	margin:0 auto;
+	margin-top: 150px;
+	padding:20px;
+	filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.8; /*Firefox私有，透明度50%*/
+	opacity:0.8;/*其他，透明度50%*/
+	/*background-image: url(../img/1.jpg);background-repeat: round;*/
+}
+.login_style .center {
+	font-size: 20px;
+}
+/*.lgstyle {
+	border:1px solid;
+	width: 20px;
+	height: 5px;
+	filter:alpha(opacity=50); IE滤镜，透明度50%
+	-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+/*	opacity:0.5;其他，透明度50%
+
+}*/
+
+												/*home.html*/
+.home_nav {
+	height: 50px;
+	padding:0;
+}
+.home_nav_right {
+	height: 100%;
+}
+.home_nav_right div{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	/*border: 1px solid;*/
+}
+.home_nav_right span{
+	font-size: 24px;
+}
+.home_nav i {
+	height: 100%;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+
+.app_icon {
+	width: 80px;
+	height: 100%;
+	background-color: #4F4F77;
+}
+.app_icon img {
+	width: 40px;
+	height: 40px;
+	
+}
+
+.home_main {
+	width: 100%;
+	min-height: 500px;
+	border: 1px solid #ccc;
+}
+
+
+											/*user_main.html*/
+.quick_links {
+	width:80%;
+	height: 400px; 
+
+}
+
+
