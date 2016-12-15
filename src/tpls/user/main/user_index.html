@@ -1,0 +1,48 @@
+<div class="bc" ng-controller="UserCtrl">
+	<div class="home_nav box_b white " style="padding-bottom: 0px">
+		<div class="app_icon fl center"><img src="img/e.png"></div>
+		<div class="home_nav_right center fl">
+			<span>设备管理系统</span>
+			<div ><i class="icon iconfont">&#xe623;</i><i class="icon iconfont">&#xe614;</i></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="home_main " >
+		
+		<block-directive  data="快捷操作">
+			<quicklinks-directive ></quicklinks-directive>
+		</block-directive>
+		
+		<div class="main_center clearfix " style="margin-top: 20px">
+			<div class="col-xs-12 col-md-3"  >
+				<block-directive data="个人信息">
+					<mytable-directive  data='list'></mytable-directive>
+				</block-directive>
+			</div>
+
+			<div class="col-xs-12 col-md-5"  >
+				<block-directive data="设备信息">
+					<mytable-directive  data='list1'></mytable-directive>
+				</block-directive>
+			</div>
+
+			<div class="col-xs-12 col-md-4" >
+				<block-directive data="哈哈燕燕">
+					<mytable-directive  data='list1'></mytable-directive>
+				</block-directive>
+			</div>
+		
+		</div>
+		<div class="main_bottom gn" style="margin-top: 20px">
+			<div>
+				<i class="icon iconfont">&#xe603;</i><span>&nbsp&nbsp提示信息</span>
+			</div>
+			<div>
+				<div>这里是提示信息</div>
+				<div>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
